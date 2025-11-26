@@ -87,9 +87,6 @@ body{
   padding-left: 70px;
 }
 @media (orientation: landscape) {
-   body{
-   background: #ff0000;
-   }
    .edit{
      width: 94vw;
      height: 77vh;
