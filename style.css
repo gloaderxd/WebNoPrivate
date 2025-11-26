@@ -113,4 +113,17 @@ body{
     opacity: 1;
   }
 }
+.fle{
+  transform: rotate(-50deg);
+  color: blue;
+}
+}
+.fle {
+  color: #ff0000;
+  position: absolute;
+  transform: rotate(-70deg);
+  user-select: none;
+  font-size: 70px;
+  top: 25%;
+  left: 30%;
 }
