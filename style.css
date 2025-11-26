@@ -1,0 +1,119 @@
+body{
+  background: #ff9000;
+  margin: 0%;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+.edit {
+  border: 15px solid black;
+  width: 43vh;
+  height: 85vh;
+  border-radius: 5%;
+  background: black;
+  color: #ccc;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  box-shadow: 0 0 15px black;
+  animation: ope 3s forwards;
+  position: relative;
+  left: 3%;
+  top: 3%;
+}
+@keyframes ope{
+  0%{
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  100%{
+    transform: translateY(3%);
+    opacity: 1;
+  }
+}
+.btn{
+  user-select: none;
+  background: #ccc;
+  background-image: url("https://www.shareicon.net/data/128x128/2015/09/13/100522_app_512x512.png");
+  background-repeat: no-repeat;
+  background-size: 60px;
+  background-position-y: 50%;
+  background-position-x: 9px;
+  transition: 300ms;
+  color: transparent;
+  height: 10vh;
+  width: 10vh;
+  border: 0;
+  border-radius: 50%;
+  font-size: 1px;
+  box-shadow: 0 0 20px green;
+  position: absolute;
+  left: 1%;
+  top: 88%;
+}
+.btn:hover{
+  border-radius: 15%15%15%15%/25%25%25%25%;
+  width: 215px;
+  text-align: center;
+  color: black;
+  padding-left: 70px;
+  font-size: 25px;
+}
+.btn2{
+  user-select: none;
+  background: #ccc;
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Telegram_logo.svg/1200px-Telegram_logo.svg.png");
+  background-repeat: no-repeat;
+  background-size: 60px;
+  background-position-y: 50%;
+  background-position-x: 9px;
+  transition: 300ms;
+  color: transparent;
+  height: 10vh;
+  width: 10vh;
+  border: 0;
+  border-radius: 50%;
+  font-size: 5px;
+  box-shadow: 0 0 20px skyblue;
+  position: absolute;
+  left: 1%;
+  top: 72%;
+}
+.btn2:hover{
+  border-radius: 15%15%15%15%/25%25%25%25%;
+  width: 215px;
+  text-align: center;
+  color: black;
+  font-size: 25px;
+  padding-left: 70px;
+}
+@media (orientation: landscape) {
+   body{
+   background: #ff0000;
+   }
+   .edit{
+     width: 94vw;
+     height: 77vh;
+     left: 1.75%;
+   }
+   .btn{
+     background-position-x: 5.50px;
+   }
+   .btn{
+     top: 85%;
+   }
+   .btn2{
+     top: 66%;
+     background-size: 53px;
+     background-position-x: 9px;
+   }
+   @keyframes ope{
+  0%{
+    transform: translateY(400%);
+    opacity: 0;
+  }
+  100%{
+    transform: translateY(3%);
+    opacity: 1;
+  }
+}
+}
