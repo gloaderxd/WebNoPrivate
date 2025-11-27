@@ -93,11 +93,7 @@ body{
     transform: translateY(3%);
     opacity: 1;
   }
-}
-.fle{
-  transform: rotate(-50deg);
-  color: blue;
-}
+ }
 }
 .fle {
   color: #ff0000;
