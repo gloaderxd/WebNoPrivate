@@ -1,4 +1,4 @@
-body{
+.jh{
   background: #ff9000;
   margin: 0%;
   overflow-y: hidden;
@@ -6,8 +6,8 @@ body{
 }
 .edit {
   border: 15px solid black;
-  width: 43vh;
-  height: 85vh;
+  width: 40vh;
+  height: 70vh;
   border-radius: 5%;
   background: black;
   color: #ccc;
@@ -15,20 +15,9 @@ body{
   justify-content: center;
   text-align: center;
   box-shadow: 0 0 15px black;
-  animation: ope 3s forwards;
   position: relative;
-  left: 3%;
-  top: 3%;
-}
-@keyframes ope{
-  0%{
-    transform: translateY(100%);
-    opacity: 0;
-  }
-  100%{
-    transform: translateY(3%);
-    opacity: 1;
-  }
+  left: 5%;
+  transform: translateY(20%);
 }
 .btn{
   user-select: none;
@@ -103,4 +92,62 @@ body{
   font-size: 70px;
   top: 25%;
   left: 30%;
+}
+.button1{
+  background-image: url("|||.svg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-color: transparent;
+  width: 10%;
+  height: 5%;
+  border: 0;
+  position: absolute;
+  top: 2%;
+  left: 2%;
+}
+.button1.activo{
+  background-image: url("x.svg");
+}
+
+
+/*agunegro.html*/
+.ProjectAgujeroNegroBody{
+  background: #1e1e1e;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+.agujero{
+  background: black;
+  border-radius: 50%;
+  width: 270px;
+  height: 270px;
+  filter: drop-shadow(0 0 20px orange);
+  border: 16px solid orange;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.borde{
+  background: orange;
+  border-radius: 50%;
+  border: 16px solid orange;
+  position: absolute;
+  width: 500px;
+  height: 300px;
+  transform: rotateX(70deg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.center{
+  border-radius: 50%;
+  border: 20px solid black;
+  background-color: black;
+  width: 240px;
+  height: 240px;
+  position: absolute;
+  bottom: 33%;
+  transform: rotateX(4deg);
 }

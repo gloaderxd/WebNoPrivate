@@ -4,3 +4,9 @@
       function telegram() {
         location.href = ("https://t.me/AVESTRUUS")
       }
+
+const miboton = document.getElementById('miboton');
+
+miboton.addEventListener('click', function() {
+  miboton.classList.toggle('activo')
+})
