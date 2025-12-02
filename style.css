@@ -8,7 +8,7 @@
   background-size: 100%;
   background-color: transparent;
   width: 10%;
-  height: 10%;
+  height: 5%;
   border: 0;
   position: absolute;
   top: 2%;
@@ -64,6 +64,46 @@
   position: absolute;
   top: -10000%;
 }
+.buttondev.activo{
+  border: 5px solid black;
+  background-color: black;
+  color: #ccc;
+  width: 60%;
+  height: 5%;
+  border-radius: 10%;
+  opacity: 1;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  position: absolute;
+  top: 25%;
+}
+.buttondev{
+  background-color: #ff9000;
+  border: 0;
+  opacity: 0;
+  user-select: none;
+  position: absolute;
+  top: -10000%;
+}
+@media (orientation: landscape) {
+  .button1{
+    width: 10%;
+    height: 25%;
+  }
+  .buttonedit.activo, .buttondev.activo{
+    width: 30%;
+    height: 20%;
+  }
+  .buttondev.activo{
+    top: 40%;
+  }
+  .jh{
+    background: red;
+  }
+}
 /*agunegro.html*/
 .ProjectAgujeroNegroBody{
   background: #1e1e1e;
@@ -117,6 +157,7 @@
 .img{
   position: absolute;
   top: 30%;
+  filter: drop-shadow(0 0 50px red);
   animation: sharingan 2s infinite;
 }
 @keyframes sharingan{

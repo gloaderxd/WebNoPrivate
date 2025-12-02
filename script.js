@@ -9,9 +9,11 @@ const miBoton = document.getElementById('miBoton');
 const miDiv = document.getElementById('miDiv'); // ⬅️ ¡Aquí seleccionamos el <div>!
 const button = document.getElementById('button');
 
+const buttondev = document.getElementById('buttond');
 
 miBoton.addEventListener('click', function() {
   miBoton.classList.toggle('activo');
   miDiv.classList.toggle('activo'); 
   button.classList.toggle('activo');
+  buttondev.classList.toggle('activo')
 });
