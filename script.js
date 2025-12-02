@@ -5,8 +5,17 @@
         location.href = ("https://t.me/AVESTRUUS")
       }
 
-const miboton = document.getElementById('miboton');
+const miBoton = document.getElementById('miBoton');
+const miDiv = document.getElementById('miDiv'); // ⬅️ ¡Aquí seleccionamos el <div>!
+const button = document.getElementById('button');
 
-miboton.addEventListener('click', function() {
-  miboton.classList.toggle('activo')
-})
+
+miBoton.addEventListener('click', function() {
+  // 1. Toggle del botón (para que se vea la 'x', si tu CSS está ahí)
+  miBoton.classList.toggle('activo');
+
+  // 2. Toggle del <div> (para que se activen tus estilos .xd.activo)
+  miDiv.classList.toggle('activo'); 
+  
+  button.classList.toggle('activo');
+});
