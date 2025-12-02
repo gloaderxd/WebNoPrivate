@@ -11,11 +11,7 @@ const button = document.getElementById('button');
 
 
 miBoton.addEventListener('click', function() {
-  // 1. Toggle del botón (para que se vea la 'x', si tu CSS está ahí)
   miBoton.classList.toggle('activo');
-
-  // 2. Toggle del <div> (para que se activen tus estilos .xd.activo)
   miDiv.classList.toggle('activo'); 
-  
   button.classList.toggle('activo');
 });

@@ -8,7 +8,7 @@
   background-size: 100%;
   background-color: transparent;
   width: 10%;
-  height: 5%;
+  height: 10%;
   border: 0;
   position: absolute;
   top: 2%;
@@ -105,4 +105,25 @@
   position: absolute;
   bottom: 33%;
   transform: rotateX(4deg);
+}
+/* Sharingan */
+
+
+.SharinganBody{
+  background: black;
+  display: flex;
+  justify-content: center;
+}
+.img{
+  position: absolute;
+  top: 30%;
+  animation: sharingan 2s infinite;
+}
+@keyframes sharingan{
+  0%{
+    transform: rotate(0deg);
+  }
+  100%{
+    transform: rotate(360deg);
+  }
 }
